@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Hat</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/digital-Haat-logo.png" type="image/x-icon">
+    <!-- fontawesom cdn link  -->
+    <script src="https://kit.fontawesome.com/9bed63f8c8.js" crossorigin="anonymous"></script>
+    <!-- bootstrap style link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- main css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header part start -->
+    <header class="header-part  mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow mb-4 fixed-top">
+            <div class="container d-flex justify-content-center">
+                <a class="navbar-brand me-4" href="#">
+                    <img width="70px" height="70px" src="images/digital-Haat-logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 d-flex justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link link-hvr active px-1 mx-4" aria-current="page" href="#"><i
+                                    class="fas fa-home"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hvr px-1 mx-4" href="#">সকল পশু</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hvr px-1 mx-4" href="#">খামারসমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hvr px-1 mx-4" href="#">জেলাসমূহ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-hvr px-1 mx-4" href="#">এসওপি</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 ms-5 bg-success text-white rounded-pill" href="#">বিক্রেতা
+                                নিবন্ধন</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-3 ms-5 bg-danger text-white rounded-pill" href="#"><i
+                                    class="fa fa-plus"></i> বিজ্ঞাপন দিন</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center justify-content-between">
+                            <a class="nav-link px-4 ms-5 bg-primary text-white rounded-pill" href="#">লগইন <i
+                                    class="fa fa-user"></i></a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <div class="spacer py-5"></div>
+    <!-- slider part  -->
+    <div class="slider-part mb-4">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Banner.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Banner-2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section class="header-footer mb-5">
+        <div class="container">
+            <h1 class="text-center text-danger fw-bold mb-5">নিরাপদ থাকাটাই জরুরী এখন, <span class="text-secondary">হাটে
+                    না গিয়েও হাট যখন তখন</span></h1>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="#"><img src="images/dg-hat.png" alt=""></a>
+                </div>
+                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                    <a href="#"><img src="images/live-logo.png" alt=""></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="#"><img src="images/escrowlogo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="row g-4 my-5 d-flex align-items-baseline">
+                <div class="col-lg-12 mb-2">
+                    <h2 class="text-center text-danger fw-bold">আপনার পছন্দমত পশুটি অনুসন্ধান করুন <i class="fa fa-search"></i></h2>
+                </div>
+                <div class="col-lg-3">
+                   <div class="d-grid">
+                       <button class="btn btn-danger text-start"><i class="fas fa-map-marker-alt me-2"></i>লোকেশন সিলেক্ট করুন</button>
+                   </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="d-grid">
+                        <button class="btn btn-danger text-start"><i class="fas fa-tags me-2"></i>ক্যাটাগরী সিলেক্ট করুন</button>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <input type="search" name="" class="form-control" id="" placeholder="কি খুঁজছেন, লিখুন...">
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="d-grid">
+                                <button class="btn btn-danger" type="button">খুঁজুন</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- main part start -->
+    <main>
+        <section class="container">
+            <div class="categories-part mb-5">
+                <div class="row g-3">
+                    <div class="col-lg-12">
+                        <h2 class="title text-center py-3">সকল ক্যাটাগরি</h2>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center" style="height: 160px; width: 100%;">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/গরু-150x150.png" alt="">
+                                <h4 class="text-center">গরু</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center" style="height: 160px; width: 100%;">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/ছাগল-150x150.png" alt="">
+                                <h4 class="text-center">ছাগল</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center" style="height: 160px; width: 100%;">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/ভেড়া-150x150.png" alt="">
+                                <h4 class="text-center">ভেড়া</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center" style="height: 160px; width: 100%;">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/দুম্বা-150x150.png" alt="">
+                                <h4 class="text-center">দুম্বা</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center" style="height: 160px; width: 100%;">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/উট-150x150.png" alt="">
+                                <h4 class="text-center">উট</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="animal bg-light p-4 d-flex justify-content-center">
+                            <div class="animal-item">
+                                <img class="mb-3 bg-white rounded-circle" style="width: 60px; height: 60px; padding: 10px;"
+                                    src="images/মহিষ-150x150.png" alt="">
+                                <h4 class="text-center">মহিষ</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- top-list part -->
+            <div class="top-list-part">
+                <div class="row mb-4 g-4">
+                    <div class="col-lg-12"><h2 class="top-title py-2">শীর্ষ তালিকা</h2></div>
+                    <div class="col-lg-3">
+                        <div class="top-list-item"> 
+                            <img class="img-fluid rounded" src="images/cow-4-400x280.jpg" alt=""> 
+                            <div class="list-back-part rounded text-center text-white">
+                                <h5>Native Cow Red-Black</h5>
+                                <h5>85,000 tk</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top-list-item"> 
+                            <img class="img-fluid rounded" src="images/cow-4-400x280.jpg" alt=""> 
+                            <div class="list-back-part rounded text-center text-white">
+                                <h5>Native Cow Red-Black</h5>
+                                <h5>85,000 tk</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top-list-item"> 
+                            <img class="img-fluid rounded" src="images/cow-4-400x280.jpg" alt=""> 
+                            <div class="list-back-part rounded text-center text-white">
+                                <h5>Native Cow Red-Black</h5>
+                                <h5>85,000 tk</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="top-list-item"> 
+                            <img class="img-fluid rounded" src="images/cow-4-400x280.jpg" alt=""> 
+                            <div class="list-back-part rounded text-center text-white">
+                                <h5>Native Cow Red-Black</h5>
+                                <h5>85,000 tk</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- all-animal-part -->
+            <div class="all-animal">
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-12 mb-3">
+                        <h2 class="title text-center py-3">সকল পশু</h2>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img class=img-fluid src="images/cow-4-400x280.jpg" alt="...">
+                                <div class="card-rate">
+                                    <h3 class="ps-2">45,000 tk</h3>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Shakib Khan</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img class=img-fluid src="images/chagol.jpg" alt="...">
+                                <div class="card-rate">
+                                    <h3 class="ps-2">75,000 tk</h3>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Nobel</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img class=img-fluid src="images/cow-4-400x280.jpg" alt="...">
+                                <div class="card-rate">
+                                    <h3 class="ps-2">55,000 tk</h3>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Nasrin</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="card-img-top">
+                                <img class=img-fluid src="images/cow-4-400x280.jpg" alt="...">
+                                <div class="card-rate">
+                                    <h3 class="ps-2">85,000 tk</h3>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Sepuda</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- all zilla  -->
+            <div class="all-zilla">
+                <div class="row g-4 gy-4 mb-5">
+                    <div class="col-lg-12 mb-2">
+                        <h2 class="title text-center py-3">সকল জেলা</h2>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/dhaka.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Chittagong.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Khulna.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Rajshahi-Paharpur.gif" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Barisal.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Sylhet.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Rangpur.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                              <div class="flip-card-front">
+                                <img src="images/Mymensingh-scaled.jpg" alt="Avatar" style="width:100%;height:250px;">
+                              </div>
+                              <div class="flip-card-back">
+                                <h4>ঢাকা</h4>
+                                <p>ঢাকা জেলার সকল গরু দেখার জন্য এখানে ক্লিক করুন</p> <br>
+                                <a href="#">Click Here</a>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<div class="footer-top-part">
+    <div class="footer-top bg-dark py-5">
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-3 text-white">
+                    <div class="footer-top-item">
+                        <img src="images/digital-Haat-logo.png" alt="">
+                        <p>ঢাকা উত্তর সিটি কর্পোরেশন, বাংলাদেশ ডেইরী ফার্মার্স এসোসিয়েশন, এটুআই - একশপ ও ই-ক্যাবের উদ্যোগে কোরবানি পশু বিক্রির জমজমাট অনলাইন প্ল্যাটফর্ম ‘ডিজিটাল হাট’</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-white">
+                    <div class="footer-top-item">
+                        <h3 class="top-title py-2">শীর্ষ তালিকা</h3>
+                        <div class="navbar-dark">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">আমাদের সম্পর্কে</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">যোগাযোগ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">পশু বিক্রয়ের গাইড</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">প্রশ্নত্তোরে ডিজিটাল হাট</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">সর্বশেষ পশু বিক্রয় তথ্য</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-white">
+                    <div class="footer-top-item">
+                        <h3 class="top-title py-2">নীতিমালা</h3>
+                        <div class="navbar-dark">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">অর্থ লেনদেন</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">নিরাপত্তা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">গোপনীয়তা</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="" class="nav-link">স্ট্যান্ডার্ড অপারেটিং প্রসিডিউর (এস ও পি)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-white">
+                    <div class="footer-top-item">
+                        <h3 class="top-title py-2">Head</h3>
+                        
+                            <ul class="navbar-nav text-secondary">
+                                <li class="nav-item">Phone: 09614102030</li>
+                                <li class="nav-item">Email: digitalhaat@e-cab.net</li>
+                                <li class="nav-item">Address: বাড়ি নং ২৯ (এম-এ), রোড নং ০৬, ধানমন্ডি, ঢাকা- ১২০৫</li>
+                                
+                            </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="bg-white py-3">
+    <div class="container text-center">
+        <span>© কপিরাইট ২০২১ । কারিগরি সহায়তায়ঃ গরু, ছাগল,ভেড়া। </span>
+    </div>
+
+</footer>
+
+
+
+
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
